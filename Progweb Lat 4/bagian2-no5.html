@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>latihan 1</title>
+	<script src="jquery-3.6.0.min.js"></script> <!-- perintah untuk mengaktifkan jquery -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+      	$(".sembunyi").click(function(){$("#foto").hide("slow")});//digunakan untuk menyembunyikan foto
+      	$(".tampil").click(function() {$("#foto").show("slow")});//digunakan untuk menampilakn foto
+      	})
+	</script>
+</head>
+<body> 
+	<button class="sembunyi">Sembunyikan</button><!--tombol untuk menampilkan perintah sembunyi-->
+  	<button class="tampil">Tampilkan</button><!--tombol untuk menampilkan perintah tampil-->
+  	<p><img id="foto" src="logoupnbaru.png" ></p><!--tombol untuk menampilkan perintah image disini dengan logo upn-->
+</body>
+</html>

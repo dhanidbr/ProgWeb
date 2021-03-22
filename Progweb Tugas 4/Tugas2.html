@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tugas 2</title>
+</head>
+<style>
+#kotak1 {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+}
+#kotak2 {
+  float: left;
+  width: 50px;
+  margin-left: 10px;
+  height: 50px;
+  background-color: yellow;
+}
+#kotak3 {
+  float: left;
+  width: 50px;
+  margin-left: 10px;
+  height: 50px;
+  background-color: yellow;
+}
+#kotak4 {
+  float: left;
+  width: 50px;
+  margin-left: 10px;
+  height: 50px;
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+  <p>klik 2x pada kotak untuk mengubah warna </p>
+    <div id="kotak1" ondblclick="myFunction()"></div>
+    <div id="kotak2" ondblclick="myFunction1()"></div>
+    <div id="kotak3" ondblclick="myFunction2()"></div>
+    <div id="kotak4" ondblclick="myFunction3()"></div>
+
+<script>
+//<!-- perintah saat kotak di tekan akan berganti warna menjadi merah
+  function myFunction() {
+    document.getElementById("kotak1").style.backgroundColor = "red"; 
+  }
+  function myFunction1() {
+    document.getElementById("kotak2").style.backgroundColor = "red";
+  }
+  function myFunction2() {
+    document.getElementById("kotak3").style.backgroundColor = "red";
+  }
+  function myFunction3() {
+    document.getElementById("kotak4").style.backgroundColor = "red";
+  }
+//-->
+</script>
+ 
+</body>
+</html>
